@@ -1,0 +1,32 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="F2Pw_Kh-273rY3dchS55-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="F2Pw_Kh-273rY3dchS55-0" target="F2Pw_Kh-273rY3dchS55-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2Pw_Kh-273rY3dchS55-0" value="class Node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F2Pw_Kh-273rY3dchS55-1" value="char ch&lt;div&gt;&lt;div&gt;int frequency;&lt;/div&gt;&lt;div&gt;Node* left;&lt;/div&gt;&lt;div&gt;Node* right;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="220" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F2Pw_Kh-273rY3dchS55-3" value="class HuffmanTree" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="60" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F2Pw_Kh-273rY3dchS55-4" value="&lt;div&gt;Node* root&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;unordered_map&amp;lt;char, string&amp;gt; codes;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="100" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F2Pw_Kh-273rY3dchS55-5" value="Методы:&lt;div&gt;void encodeChars() - кодирование символов строки&lt;/div&gt;&lt;div&gt;void deleteTree() - очистка памяти дерева&lt;/div&gt;&lt;div&gt;void buildHuffmanTree() - построение дерева, нахождение корня&lt;/div&gt;&lt;div&gt;string encode() - кодирование строки&lt;/div&gt;&lt;div&gt;string decode() - декодирование строки&lt;/div&gt;&lt;div&gt;void print() - вывод результатов&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="150" width="260" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
